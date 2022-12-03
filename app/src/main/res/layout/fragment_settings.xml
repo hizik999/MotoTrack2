@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/color4"
+    android:paddingTop="35dp"
+
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Настройки поездки"
+            android:textColor="@color/white"
+            android:layout_marginBottom="14dp"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/delimeter_view"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/color3"
+        android:layout_gravity="bottom" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="25sp"
+                    android:text="@string/choose_trip_status"
+                    android:textColor="@color/white"/>
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+                    android:id="@+id/toggleGroupStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:alignItems="baseline"
+                    app:justifyContent="space_evenly"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:toggle_requiredAmount="1"
+                    app:toggle_selectableAmount="1">
+
+                    <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+
+                        android:id="@+id/btnCar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:toggle_backgroundColor="@color/color5"
+                        app:toggle_borderColor="@color/color3"
+                        app:toggle_borderWidth="5dp"
+                        app:toggle_btnCornerRadius="50dp"
+                        app:toggle_icon="@drawable/ic_car"
+                        app:toggle_iconColor="@color/color3"
+                        app:toggle_iconPadding="18dp"
+                        app:toggle_selectedBorderColor="@color/white"
+
+                        app:toggle_selectedBackgroundColor="@color/color7"
+
+                        app:toggle_selectedIcon="@drawable/ic_car" />
+
+
+
+                    <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                        android:id="@+id/btnMoto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:toggle_backgroundColor="@color/color5"
+                        app:toggle_borderColor="@color/color3"
+                        app:toggle_borderWidth="5dp"
+                        app:toggle_btnCornerRadius="50dp"
+                        app:toggle_icon="@drawable/ic_moped"
+                        app:toggle_iconColor="@color/color3"
+                        app:toggle_iconPadding="18dp"
+                        app:toggle_selectedBorderColor="@color/white"
+                        app:toggle_selectedBackgroundColor="@color/color7"
+                        app:toggle_selectedIcon="@drawable/ic_moped" />
+                    <!-- ... -->
+
+                </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="bottom">
+
+                <TextView
+
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="25sp"
+                    android:text="@string/choose_voice_status"
+                    android:textColor="@color/white"/>
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+                    android:id="@+id/toggleGroupVoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:alignItems="baseline"
+                    app:justifyContent="space_evenly"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:toggle_requiredAmount="1"
+                    app:toggle_selectableAmount="1">
+
+
+
+                    <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                        android:id="@+id/btnVoiceOn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:toggle_backgroundColor="@color/color5"
+                        app:toggle_borderColor="@color/color3"
+                        app:toggle_borderWidth="5dp"
+                        app:toggle_btnCornerRadius="50dp"
+                        app:toggle_icon="@drawable/ic_baseline_volume_up_24"
+                        app:toggle_iconColor="@color/color3"
+                        app:toggle_iconPadding="18dp"
+                        app:toggle_selectedBorderColor="@color/white"
+                        app:toggle_selectedBackgroundColor="@color/color8"
+                        app:toggle_selectedIcon="@drawable/ic_baseline_volume_up_24" />
+
+
+
+                    <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                        android:id="@+id/btnVoiceOff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:toggle_backgroundColor="@color/color5"
+                        app:toggle_borderColor="@color/color3"
+                        app:toggle_borderWidth="5dp"
+                        app:toggle_btnCornerRadius="50dp"
+                        app:toggle_icon="@drawable/ic_baseline_volume_off_24"
+                        app:toggle_iconColor="@color/color3"
+                        app:toggle_iconPadding="18dp"
+                        app:toggle_selectedBorderColor="@color/white"
+                        app:toggle_selectedBackgroundColor="@color/color8"
+                        app:toggle_selectedIcon="@drawable/ic_baseline_volume_off_24" />
+                    <!-- ... -->
+
+                </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="3">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="bottom">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:text="@string/choose_notification_status"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+                    android:id="@+id/toggleGroupNotifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:alignItems="baseline"
+                    app:justifyContent="space_evenly"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:toggle_requiredAmount="1"
+                    app:toggle_selectableAmount="1">
+
+                    <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                        android:id="@+id/btnNotificationOn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:toggle_backgroundColor="@color/color5"
+                        app:toggle_borderColor="@color/color3"
+                        app:toggle_borderWidth="5dp"
+                        app:toggle_btnCornerRadius="50dp"
+                        app:toggle_icon="@drawable/ic_baseline_notifications_active_24"
+                        app:toggle_iconColor="@color/color3"
+                        app:toggle_iconPadding="18dp"
+                        app:toggle_selectedBorderColor="@color/white"
+
+                        app:toggle_selectedBackgroundColor="@color/color6"
+
+                        app:toggle_selectedIcon="@drawable/ic_baseline_notifications_active_24" />
+
+                    <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+                        android:id="@+id/btnNotificationOff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        app:toggle_backgroundColor="@color/color5"
+                        app:toggle_borderColor="@color/color3"
+                        app:toggle_borderWidth="5dp"
+                        app:toggle_btnCornerRadius="50dp"
+                        app:toggle_icon="@drawable/ic_baseline_notifications_off_24"
+                        app:toggle_iconColor="@color/color3"
+                        app:toggle_iconPadding="18dp"
+                        app:toggle_selectedBorderColor="@color/white"
+                        app:toggle_selectedBackgroundColor="@color/color6"
+                        app:toggle_selectedIcon="@drawable/ic_baseline_notifications_off_24" />
+                    <!-- ... -->
+
+                </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+
+                <View
+                    android:id="@+id/delimeter_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/color3"
+
+                    app:layout_constraintBottom_toBottomOf="@+id/textView"
+                    app:layout_constraintTop_toBottomOf="@+id/toggleGroupNotifications" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="32dp"
+        android:layout_weight="3">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+
+                android:id="@+id/btn_startTrip"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="@drawable/layout_round_corners"
+                android:text="@string/startTripSuccess"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

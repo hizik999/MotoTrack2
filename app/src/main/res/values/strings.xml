@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">MotoTrack</string>
+    <string name="google_map_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCew_k8kTuVRNOthVbBtMGyLh-Wj3Qjsp0</string>
+    <string name="google_map_key2" templateMergeStrategy="preserve" translatable="false">AIzaSyA_VIxhnQsBoQKiaNpXsP0Kld9FwaURdq0</string>
+
+    <string name="yandex_api">89dd61c6-b084-4e39-b9ba-d61687c8bee4</string>
+
+    <string name="btn_find_location"> Где я?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="provider_gps">Местоположение по GPS</string>
+    <string name="provider_network">Местоположение по Wi-Fi</string>
+    <string name="location_settings">Настройки геолокации</string>
+    <string name="moped_check">Я - мотоциклист</string>
+    <string name="trip_start_tag">Отметье в начале поездки</string>
+    <string name="checkbox_enable">Теперь другие водители будут внимательнее смотреть на дорогу!</string>
+    <string name="checkbox_enable_notification_up">Вы в поездке.</string>
+    <string name="checkbox_enable_notification_down">Другие водители видят Ваше местоположение.</string>
+    <string name="notification_desc_car">Будьте внимательнее на дороге!</string>
+    <string name="notification_desc_moto">Другие водители видят Ваше местоположение.</string>
+    <string name="notification_title_car">Вы - автомобилист</string>
+    <string name="notification_title_moto">Вы - мотоциклист</string>
+    <string name="notification_big_text">Нажмите на уведомление, чтобы перейти в приложение.</string>
+    <string name="motos_count">Мотоциклов поблизости</string>
+    <string name="choose_trip_status">Статус:</string>
+    <string name="choose_notification_status">Уведомление:</string>
+    <string name="choose_voice_status">Голосовое предупреждение:</string>
+    <string-array name="array_switch">
+        <item>Автомобилист</item>
+        <item>Мотоциклист</item>
+    </string-array>
+    <string name="startTripSuccess">Начать поездку</string>
+    <string name="startTripFail">Выберите настройки до конца</string>
+    <string name="fakeMotos">Вы не автомобилист.</string>
+    <string name="fakeMotosDesc">Чтобы увидеть список ближайших мотоциклов, Вам нужно выбрать режим водителя автомобиля и построить маршрут.</string>
+    <string name="goToSettings">Перейти в настройки</string>
+    <string name="inputAddressEditText">Введите адрес</string>
+    <string name="name">Никнейм</string>
+    <string name="cancelTrip">Отменить маршрут?</string>
+
+    <!--Keys for SharedPrefs-->
+    <string name="car_or_moto">car_or_moto</string>
+    <string name="notification_status">notification_status</string>
+    <string name="show_moto">show_moto</string>
+    <string name="voiceOn">voiceOn</string>
+    <string name="tripStatus">tripStatus</string>
+    <string name="actualCameraPositionLat">actualCameraPositionLat</string>
+    <string name="actualCameraPositionLon">actualCameraPositionLon</string>
+    <string name="actualCameraPositionAlt">actualCameraPositionAlt</string>
+    <string name="actualSpeed">actualSpeed</string>
+    <string name="tripEnd">tripEnd</string>
+    <string name="findLocationEditText">findLocationEditText</string>
+    <string name="userId">userId</string>
+    <string name="motoId">motoId</string>
+    <string name="lastMotoName">lastMotoName</string>
+    <string name="userNickname">userNickname</string>
+    <string name="userLogged">userLogged</string>
+    <string name="delete_placemark">DELETE_PLACEMARK</string>
+    <string name="kmh"> км/ч</string>
+    <string name="m"> м</string>
+    <string name="input_nickname">Введите свой никнейм</string>
+    <string name="no_connection">Нет подключения к Интернету, \nданные не актуальны</string>
+
+<!--1 значит moto, 0 значит car-->
+</resources>

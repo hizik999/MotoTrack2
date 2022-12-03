@@ -1,0 +1,71 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.mototrack2java'
+    compileSdkVersion 33
+
+    defaultConfig {
+        applicationId "com.example.mototrack2java"
+        minSdk 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        debug {
+            res {
+                srcDirs 'src\\debug\\res', 'src\\main\\res\\raw'
+            }
+        }
+    }
+}
+
+dependencies {
+
+    //rest
+    implementation 'com.android.volley:volley:1.2.1'
+
+    //json
+    implementation 'com.google.code.gson:gson:2.9.0'
+
+    //yandex maps
+    implementation 'com.yandex.android:maps.mobile:4.0.0-full'
+
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.7.20'
+    implementation 'nl.bryanderidder:themed-toggle-button-group:1.4.1'
+
+
+    implementation 'com.google.maps:google-maps-services:2.0.0'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.fragment:fragment:1.5.4'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+
+    implementation 'com.google.android.gms:play-services-location:19.0.1'
+
+
+}

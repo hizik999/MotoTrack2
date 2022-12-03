@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_ic_baseline_account_circle_24.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/ic_baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.mototrack2java.app-pngs-30:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/layout_fragment_yandex_map.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/layout/fragment_yandex_map.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_round_corners_account_icon.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/round_corners_account_icon.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_ic_moped.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/ic_moped.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_layout_round_button.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/layout_round_button.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_ic_baseline_volume_up_24.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/ic_baseline_volume_up_24.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_ic_baseline_mic_24.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/ic_baseline_mic_24.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable_ic_round_arrow_forward_24.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable/ic_round_arrow_forward_24.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_moto.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/moto.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_icon.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/icon.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable/ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_ic_car.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/ic_car.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_ic_settings.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/ic_settings.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_user_arrow.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/user_arrow.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_motopng.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/motopng.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_search_result.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/search_result.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_layout_round_corners.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/layout_round_corners.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/raw_bell.wav.flat",
+        "source": "com.example.mototrack2java.app-main-37:/raw/bell.wav"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/raw_start.wav.flat",
+        "source": "com.example.mototrack2java.app-main-37:/raw/start.wav"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_ic_red_moped.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/ic_red_moped.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_circle_icon_account.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/circle_icon_account.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_white_settings.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/white_settings.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_ic_map.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/ic_map.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_ic_baseline_location_on_24.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/ic_baseline_location_on_24.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.mototrack2java.app-main-37:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_ic_baseline_notifications_active_24.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/ic_baseline_notifications_active_24.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/raw_back.wav.flat",
+        "source": "com.example.mototrack2java.app-main-37:/raw/back.wav"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_ic_baseline_volume_off_24.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/ic_baseline_volume_off_24.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/layout_fragment_settings.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/drawable-v24_ic_baseline_notifications_off_24.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/drawable-v24/ic_baseline_notifications_off_24.xml"
+    },
+    {
+        "merged": "com.example.mototrack2java.app-merged_res-35:/xml_backup_rules.xml.flat",
+        "source": "com.example.mototrack2java.app-main-37:/xml/backup_rules.xml"
+    }
+]

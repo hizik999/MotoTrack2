@@ -1,0 +1,244 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mototrack2java"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:12:5-74
+8        android:minSdkVersion="21"
+8-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:12:15-41
+9        android:targetSdkVersion="33" />
+9-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:12:42-71
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:8:5-77
+14-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+15-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:9:5-85
+15-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:9:22-83
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:15:5-81
+17-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:15:22-78
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:16:5-76
+18-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:16:22-73
+19    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+19-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:17:5-76
+19-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:17:22-73
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:19:5-68
+20-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:19:22-65
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:20:5-81
+21-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:20:22-78
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:21:5-68
+22-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:21:22-65
+23    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+23-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:22:5-74
+23-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:22:22-71
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25
+26    <permission
+26-->[androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+27        android:name="com.example.mototrack2java.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.example.mototrack2java.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:14:5-40:19
+33        android:allowBackup="true"
+33-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:15:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] C:\Users\andry\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+35        android:dataExtractionRules="@xml/data_extraction_rules"
+35-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:17:9-65
+36        android:debuggable="true"
+37        android:fullBackupContent="@xml/backup_rules"
+37-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:18:9-54
+38        android:icon="@mipmap/ic_launcher"
+38-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:19:9-43
+39        android:label="@string/app_name"
+39-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:20:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:21:9-54
+41        android:supportsRtl="true"
+41-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:22:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.MotoTrack2Java"
+43-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:23:9-52
+44        android:usesCleartextTraffic="true" >
+44-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:16:9-44
+45        <activity
+45-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:26:9-39:20
+46            android:name="com.example.mototrack2java.MainActivity"
+46-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:27:13-41
+47            android:exported="true"
+47-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:28:13-36
+48            android:screenOrientation="portrait" >
+48-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:29:13-49
+49            <intent-filter>
+49-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:30:13-34:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:31:17-69
+50-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:31:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:33:17-77
+52-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:33:27-74
+53            </intent-filter>
+54
+55            <meta-data
+55-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:36:13-38:36
+56                android:name="android.app.lib_name"
+56-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:37:17-52
+57                android:value="" />
+57-->C:\Users\andry\AndroidStudioProjects\MotoTrack2Java\app\src\main\AndroidManifest.xml:38:17-33
+58        </activity>
+59
+60        <meta-data
+60-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:25:9-27:38
+61            android:name="yandex.maps.runtime.stl.linkage"
+61-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:26:13-59
+62            android:value="static" />
+62-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:27:13-35
+63
+64        <service
+64-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:29:9-32:72
+65            android:name="com.evernote.android.job.patched.internal.v21.PlatformJobService"
+65-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:30:13-92
+66            android:exported="false"
+66-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:31:13-37
+67            android:permission="android.permission.BIND_JOB_SERVICE" />
+67-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:32:13-69
+68        <service
+68-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:33:9-36:72
+69            android:name="com.evernote.android.job.patched.internal.v14.PlatformAlarmService"
+69-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:34:13-94
+70            android:exported="false"
+70-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:35:13-37
+71            android:permission="android.permission.BIND_JOB_SERVICE" />
+71-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:36:13-69
+72        <service
+72-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:37:9-39:40
+73            android:name="com.evernote.android.job.patched.internal.v14.PlatformAlarmServiceExact"
+73-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:38:13-99
+74            android:exported="false" />
+74-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:39:13-37
+75
+76        <receiver
+76-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:41:9-50:20
+77            android:name="com.evernote.android.job.patched.internal.v14.PlatformAlarmReceiver"
+77-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:42:13-95
+78            android:exported="false" >
+78-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:43:13-37
+79            <intent-filter>
+79-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:44:13-49:29
+80
+81                <!-- Keep the filter for legacy intents -->
+82                <action android:name="com.evernote.android.job.patched.internal.v14.RUN_JOB" />
+82-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:47:17-96
+82-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:47:25-93
+83                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
+83-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:48:17-78
+83-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:48:25-75
+84            </intent-filter>
+85        </receiver>
+86        <receiver
+86-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:51:9-60:20
+87            android:name="com.evernote.android.job.patched.internal.JobBootReceiver"
+87-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:52:13-85
+88            android:exported="false" >
+88-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:53:13-37
+89            <intent-filter>
+89-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:54:13-59:29
+90                <action android:name="android.intent.action.BOOT_COMPLETED" />
+90-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:55:17-79
+90-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:55:25-76
+91                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+91-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:56:17-82
+91-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:56:25-79
+92                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+92-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:57:17-82
+92-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:57:25-79
+93                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+93-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:58:17-84
+93-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:58:25-81
+94            </intent-filter>
+95        </receiver>
+96
+97        <service
+97-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:62:9-65:72
+98            android:name="com.evernote.android.job.patched.internal.JobRescheduleService"
+98-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:63:13-90
+99            android:exported="false"
+99-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:64:13-37
+100            android:permission="android.permission.BIND_JOB_SERVICE" />
+100-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:65:13-69
+101        <service
+101-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:66:9-69:72
+102            android:name="com.yandex.runtime.connectivity.internal.ConnectivityService"
+102-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:67:13-88
+103            android:exported="true"
+103-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:68:13-36
+104            android:permission="android.permission.BIND_JOB_SERVICE" />
+104-->[com.yandex.android:maps.mobile:4.0.0-full] C:\Users\andry\.gradle\caches\transforms-3\152f3ce90df455a1fdf7c5c913019361\transformed\maps.mobile-4.0.0-full\AndroidManifest.xml:69:13-69
+105
+106        <activity
+106-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\andry\.gradle\caches\transforms-3\9df4caf478e8a4a3e6e06e7b0287a07e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+107            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+107-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\andry\.gradle\caches\transforms-3\9df4caf478e8a4a3e6e06e7b0287a07e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\andry\.gradle\caches\transforms-3\9df4caf478e8a4a3e6e06e7b0287a07e\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\andry\.gradle\caches\transforms-3\9df4caf478e8a4a3e6e06e7b0287a07e\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+110
+111        <meta-data
+111-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\andry\.gradle\caches\transforms-3\b4a76a349f706e6c557a13ae2ac7dde3\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+112            android:name="com.google.android.gms.version"
+112-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\andry\.gradle\caches\transforms-3\b4a76a349f706e6c557a13ae2ac7dde3\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+113            android:value="@integer/google_play_services_version" />
+113-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\andry\.gradle\caches\transforms-3\b4a76a349f706e6c557a13ae2ac7dde3\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+114
+115        <provider
+115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\andry\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+116            android:name="androidx.startup.InitializationProvider"
+116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\andry\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+117            android:authorities="com.example.mototrack2java.androidx-startup"
+117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\andry\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+118            android:exported="false" >
+118-->[androidx.emoji2:emoji2:1.2.0] C:\Users\andry\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+119            <meta-data
+119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\andry\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+120                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\andry\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+121                android:value="androidx.startup" />
+121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\andry\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+122            <meta-data
+122-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\andry\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+123                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+123-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\andry\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+124                android:value="androidx.startup" />
+124-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\andry\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+125        </provider>
+126    </application>
+127
+128</manifest>

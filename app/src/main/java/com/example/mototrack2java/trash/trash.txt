@@ -1,0 +1,100 @@
+MainActivity.java, 216 stroke
+
+private void fillLatLon() {
+//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+//                if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+//
+//                    if (isGPSEnabled()) {
+//
+//                        LocationServices.getFusedLocationProviderClient(MainActivity.this)
+//                                .requestLocationUpdates(locationRequest, new LocationCallback() {
+//                                    @Override
+//                                    public void onLocationResult(@NonNull LocationResult locationResult) {
+//                                        super.onLocationResult(locationResult);
+//
+//                                        LocationServices.getFusedLocationProviderClient(MainActivity.this)
+//                                                .removeLocationUpdates(this);
+//
+//                                        if (locationResult != null && locationResult.getLocations().size() > 0){
+//                                            int index = locationResult.getLocations().size() - 1;
+//                                            float lat = (float) locationResult.getLocations().get(index).getLatitude();
+//                                            float lon = (float) locationResult.getLocations().get(index).getLongitude();
+//                                            float id = 1.0F;
+//
+//                                            Log.d("LAT", String.valueOf(lat));
+//                                            Log.d("LON", String.valueOf(lon));
+//
+//                                            try {
+//                                                ((MainActivity) context).saveDataFloat("lat", lat);
+//                                                ((MainActivity) context).saveDataFloat("lon", lon);
+//                                                ((MainActivity) context).saveDataFloat("id", id);
+//                                            } catch (Exception e){
+//                                                e.printStackTrace();
+//                                            }
+//
+//                                        }
+//                                    }
+//                                }, Looper.getMainLooper());
+//
+//                    } else {
+//                        turnOnGPS();
+//                    }
+//
+//                } else {
+//                    requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 100);
+//
+//                }
+//            }
+//        }
+//
+//
+//        private boolean isGPSEnabled() {
+//            LocationManager locationManager = null;
+//            boolean isEnabled = false;
+//
+//            if (locationManager == null) {
+//                locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+//
+//            }
+//            isEnabled = locationManager.isProviderEnabled(locationManager.GPS_PROVIDER);
+//            return isEnabled;
+//        }
+//
+//        private void turnOnGPS(){
+//
+//            LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder()
+//                    .addLocationRequest(locationRequest);
+//            builder.setAlwaysShow(true);
+//
+//            Task<LocationSettingsResponse> result = LocationServices.getSettingsClient(getApplicationContext())
+//                    .checkLocationSettings(builder.build());
+//
+//            result.addOnCompleteListener(new OnCompleteListener<LocationSettingsResponse>() {
+//                @Override
+//                public void onComplete(@NonNull Task<LocationSettingsResponse> task) {
+//
+//                    try {
+//                        LocationSettingsResponse response = task.getResult(ApiException.class);
+//                        Toast.makeText(MainActivity.this, "GPS is already tured on", Toast.LENGTH_SHORT).show();
+//
+//                    } catch (ApiException e) {
+//
+//                        switch (e.getStatusCode()) {
+//                            case LocationSettingsStatusCodes.RESOLUTION_REQUIRED:
+//
+//                                try {
+//                                    ResolvableApiException resolvableApiException = (ResolvableApiException) e;
+//                                    resolvableApiException.startResolutionForResult(MainActivity.this, 2);
+//                                } catch (IntentSender.SendIntentException ex) {
+//                                    ex.printStackTrace();
+//                                }
+//                                break;
+//
+//                            case LocationSettingsStatusCodes.SETTINGS_CHANGE_UNAVAILABLE:
+//                                //Device does not have location
+//                                break;
+//                        }
+//                    }
+//                }
+//            });
+//        }
