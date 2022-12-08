@@ -33,7 +33,7 @@ import java.util.Map;
 public class MotoApiVolley implements MotoApiInterface {
 
     //localhost
-    public static final String BASE_URL = "http://192.168.1.111:2023/";
+    public static final String BASE_URL = "http:///95.163.235.100:2022/";
 
     public static final String API_TEST = "API_TEST_VOLLEY";
     private Context context;

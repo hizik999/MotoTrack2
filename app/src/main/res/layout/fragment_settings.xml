@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/color4"
-    android:paddingTop="35dp"
+    android:paddingTop="50dp"
 
     android:paddingLeft="5dp"
     android:paddingRight="5dp">
@@ -330,7 +330,7 @@
                 android:background="@drawable/layout_round_corners"
                 android:text="@string/startTripSuccess"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="18sp"
 
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
