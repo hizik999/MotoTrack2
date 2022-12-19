@@ -291,8 +291,8 @@ public class MainActivity extends AppCompatActivity {
 
             while (threadStatus) {
                 try {
+                    updateGPS();
                     if (loadDataBoolean("status")) {
-                        updateGPS();
                         switch (loadDataInt("car_status")) {
                             case 0:
                                 fillMoto();
