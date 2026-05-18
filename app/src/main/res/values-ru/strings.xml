@@ -1,0 +1,24 @@
+<resources>
+    <string name="destination_label">Введите адрес</string>
+    <string name="nearby_motos_count">Рядом: %1$d</string>
+    <string name="my_location_content_description">Где я?</string>
+    <string name="settings_content_description">Настройки</string>
+    <string name="back_content_description">Назад</string>
+    <string name="status_title">Статус</string>
+    <string name="voice_warning_title">Голосовое предупреждение</string>
+    <string name="notification_setting_title">Уведомление</string>
+    <string name="mode_car">Автомобилист</string>
+    <string name="mode_moto">Мотоциклист</string>
+    <string name="start_trip">Начать поездку</string>
+    <string name="cancel_trip">Отменить маршрут?</string>
+    <string name="incomplete_settings_error">Выберите настройки до конца</string>
+    <string name="start_trip_error">Не удалось начать поездку</string>
+    <string name="no_connection_message">Нет подключения к Интернету, данные могут быть неактуальны</string>
+
+    <string name="notification_desc_car">Будьте внимательнее на дороге!</string>
+    <string name="notification_desc_moto">Другие водители видят ваше местоположение.</string>
+    <string name="notification_title_car">Вы - автомобилист</string>
+    <string name="notification_title_moto">Вы - мотоциклист</string>
+    <string name="notification_big_text">Нажмите на уведомление, чтобы перейти в приложение.</string>
+    <string name="notification_channel_description">Статус поездки MotoTrack</string>
+</resources>

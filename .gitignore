@@ -1,5 +1,7 @@
 *.iml
-.gradle
+/.gradle/
+/.gradle-home/
+**/build/
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -13,5 +15,15 @@
 .externalNativeBuild
 .cxx
 local.properties
-/app/
+secrets.properties
+*.secrets.properties
 .idea
+
+# Android/Gradle generated artifacts
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.arsc.flat
+*.flat
