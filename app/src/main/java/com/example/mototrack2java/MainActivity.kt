@@ -140,7 +140,8 @@ fun MotoTrackApp(
     onVoiceChanged: (Boolean) -> Unit,
     onNotificationChanged: (Boolean) -> Unit,
     onStartStopTripClicked: () -> Unit,
-    onErrorShown: () -> Unit
+    onErrorShown: () -> Unit,
+    mapContent: @Composable (MainUiState) -> Unit = { MotoTrackMapScreen(state = it) }
 ) {
     val snackbarHostState = remember { SnackbarHostState() }
     val errorMessage = state.errorMessageRes?.let { stringResource(it) }
@@ -198,7 +199,7 @@ fun MotoTrackApp(
             )
 
             when (state.currentScreen) {
-                MainScreen.MAP -> MotoTrackMapScreen(state = state)
+                MainScreen.MAP -> mapContent(state)
                 MainScreen.SETTINGS -> SettingsScreen(
                     state = state,
                     onModeChanged = onModeChanged,
@@ -252,35 +253,50 @@ private fun MotoTrackMapScreen(state: MainUiState) {
                 .fillMaxSize()
                 .testTag(AppConfig.UiTestTags.MAP_VIEW)
         )
-        Row(
-            modifier = Modifier
-                .align(Alignment.TopCenter)
-                .padding(16.dp),
-            horizontalArrangement = Arrangement.spacedBy(12.dp),
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            Card(elevation = 6.dp) {
-                Row(
-                    modifier = Modifier.padding(horizontal = 14.dp, vertical = 10.dp),
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    Icon(Icons.Default.Moped, contentDescription = null)
-                    Spacer(Modifier.width(8.dp))
-                    Text(
-                        text = stringResource(
-                            R.string.nearby_motos_count,
-                            state.settings.nearbyMotoCount
-                        ),
-                        fontWeight = FontWeight.Medium
-                    )
-                }
-            }
-            IconButton(onClick = controller::centerOnUser) {
-                Icon(
-                    Icons.Default.GpsFixed,
-                    contentDescription = stringResource(R.string.my_location_content_description)
+        MotoTrackMapOverlay(
+            state = state,
+            onCenterOnUser = controller::centerOnUser,
+            modifier = Modifier.align(Alignment.TopCenter)
+        )
+    }
+}
+
+@Composable
+fun MotoTrackMapOverlay(
+    state: MainUiState,
+    onCenterOnUser: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    Row(
+        modifier = modifier.padding(16.dp),
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Card(elevation = 6.dp) {
+            Row(
+                modifier = Modifier.padding(horizontal = 14.dp, vertical = 10.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Icon(Icons.Default.Moped, contentDescription = null)
+                Spacer(Modifier.width(8.dp))
+                Text(
+                    text = stringResource(
+                        R.string.nearby_motos_count,
+                        state.settings.nearbyMotoCount
+                    ),
+                    modifier = Modifier.testTag(AppConfig.UiTestTags.NEARBY_MOTOS_COUNT),
+                    fontWeight = FontWeight.Medium
                 )
             }
+        }
+        IconButton(
+            onClick = onCenterOnUser,
+            modifier = Modifier.testTag(AppConfig.UiTestTags.MY_LOCATION_BUTTON)
+        ) {
+            Icon(
+                Icons.Default.GpsFixed,
+                contentDescription = stringResource(R.string.my_location_content_description)
+            )
         }
     }
 }
@@ -311,6 +327,7 @@ private fun SettingsScreen(
             enabled = state.settings.voiceEnabled,
             enabledIcon = { Icon(Icons.Default.VolumeUp, contentDescription = null) },
             disabledIcon = { Icon(Icons.Default.VolumeOff, contentDescription = null) },
+            switchTestTag = AppConfig.UiTestTags.VOICE_SWITCH,
             onChanged = onVoiceChanged
         )
         SettingSwitchRow(
@@ -318,6 +335,7 @@ private fun SettingsScreen(
             enabled = state.settings.notificationEnabled,
             enabledIcon = { Icon(Icons.Default.Notifications, contentDescription = null) },
             disabledIcon = { Icon(Icons.Default.NotificationsOff, contentDescription = null) },
+            switchTestTag = AppConfig.UiTestTags.NOTIFICATION_SWITCH,
             onChanged = onNotificationChanged
         )
 
@@ -351,6 +369,11 @@ private fun TripModeSelector(
             } else {
                 AppConfig.UiTestTags.MODE_MOTO
             }
+            val radioTestTag = if (mode == TripMode.CAR) {
+                AppConfig.UiTestTags.MODE_CAR_RADIO
+            } else {
+                AppConfig.UiTestTags.MODE_MOTO_RADIO
+            }
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -362,7 +385,11 @@ private fun TripModeSelector(
                     .testTag(testTag),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                RadioButton(selected = selected == mode, onClick = { onModeChanged(mode) })
+                RadioButton(
+                    selected = selected == mode,
+                    onClick = { onModeChanged(mode) },
+                    modifier = Modifier.testTag(radioTestTag)
+                )
                 Icon(icon, contentDescription = null, modifier = Modifier.size(28.dp))
                 Spacer(Modifier.width(12.dp))
                 Text(label, style = MaterialTheme.typography.body1)
@@ -377,6 +404,7 @@ private fun SettingSwitchRow(
     enabled: Boolean,
     enabledIcon: @Composable () -> Unit,
     disabledIcon: @Composable () -> Unit,
+    switchTestTag: String,
     onChanged: (Boolean) -> Unit
 ) {
     Row(
@@ -386,6 +414,10 @@ private fun SettingSwitchRow(
         if (enabled) enabledIcon() else disabledIcon()
         Spacer(Modifier.width(12.dp))
         Text(title, modifier = Modifier.weight(1f))
-        Switch(checked = enabled, onCheckedChange = onChanged)
+        Switch(
+            checked = enabled,
+            onCheckedChange = onChanged,
+            modifier = Modifier.testTag(switchTestTag)
+        )
     }
 }

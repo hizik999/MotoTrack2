@@ -70,9 +70,15 @@ object AppConfig {
         const val NAVIGATION_ACTION = "navigation_action"
         const val DESTINATION_FIELD = "destination_field"
         const val MAP_VIEW = "map_view"
+        const val NEARBY_MOTOS_COUNT = "nearby_motos_count"
+        const val MY_LOCATION_BUTTON = "my_location_button"
         const val STATUS_TITLE = "status_title"
         const val START_TRIP_BUTTON = "start_trip_button"
         const val MODE_CAR = "mode_car"
         const val MODE_MOTO = "mode_moto"
+        const val MODE_CAR_RADIO = "mode_car_radio"
+        const val MODE_MOTO_RADIO = "mode_moto_radio"
+        const val VOICE_SWITCH = "voice_switch"
+        const val NOTIFICATION_SWITCH = "notification_switch"
     }
 }
